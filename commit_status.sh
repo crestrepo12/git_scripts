@@ -1,5 +1,4 @@
-#!/bin/git_commands/bash
-#!/bin/git_commands/sh
+#!/bin/bash
 
-notify-send "Did you make a git commit today?" "Start Now Please!" -u critical -i face-smirk
+export DISPLAY=:0 && notify-send "Did you make a git commit today?" "Start Now Please!" -u critical -i face-smirk
 
